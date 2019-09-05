@@ -1,0 +1,18 @@
+{
+  "name": "com.arup.point-clouds",
+  "displayName": "Scriptable Framework",
+  "author": "Jak Hussain",
+  "version": "0.1.0-preview",
+  "unity": "2019.1",
+  "description": "Allows developers to first sample point cloud data by transfering it all to the GPU then use compute shaders to bake the data into custom render textures. Since this whole process is automated, you only need to create your own VFX graph to render the data according to the render textures as attribute maps.\n\nHere is a list of the supported data types:\n\n▪ Positions (Vector3)\n▪ Velocities (Vector3)\n▪ Normals (Vector3)\n▪ Colors (Color32)",
+  "keywords": [
+    "Arup",
+    "Facades",
+    "Module"
+  ],
+  "category": "AFE",
+  "dependencies": 
+    {
+        "com.open.scriptable-framework": "1.2.0"
+    }
+}
